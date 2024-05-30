@@ -1,0 +1,124 @@
+/* Base styles for the resume */
+.margin{
+  margin: 7px;
+}
+
+.display{
+  margin-top: 20px;
+}
+  
+.form-display{
+  margin: 20px;
+  }
+
+  .preview-section .resume{
+     font-size: 11px;
+     width: 600px;
+  }
+  .preview-section .resume .main-border{
+    margin: 10px auto;
+  }
+
+  .preview-section .resume h1{
+    font-size: 2.2rem;
+    text-transform: capitalize;
+
+  }
+  .preview-section .resume h2{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: gray;
+  }
+
+  .preview-section .resume .main-content h2{
+    font-size: 0.8rem;
+  }
+  
+  .function-display{
+    margin: 5px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .colortext{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: st;
+    justify-content: space-around;
+}
+
+.resumeimg1{
+  width: 333px;
+}
+
+.resumeimg2{
+  height: 464px;
+}
+
+.imagediv{
+  align-items: center;
+  margin-top: 5%;
+}
+
+.formBox{
+  display: flex;
+   flex-wrap: wrap;
+  max-width: 100%;
+  border: 1px dashed black;
+}
+
+.css-1jssz31-MuiGrid-root {
+  max-width: 100%;
+}
+  /* Responsive font size adjustments */
+  @media (max-width: 768px) {
+    .resume-1 {
+      font-size: 13px; /* Adjust base font size */
+    }
+  
+    .resume-1 h1 {
+      font-size: 2rem;
+    }
+  
+    .resume-1 h2 {
+      font-size: 1.25rem;
+    }
+  
+    .heading p {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .resume-1 {
+      font-size: 12px; /* Adjust base font size */
+    }
+    .preview-section .resume{
+      font-size: 10px;
+      width: 335px;
+   }
+    .resume-1 h1 {
+      font-size: 1.5rem;
+    }
+  
+    .resume-1 h2 {
+      font-size: 1rem;
+    }
+  
+    .heading p {
+      font-size: 1.25rem;
+    }
+
+    .resume-main .resume1 {
+      /* height: 400px; */
+      width: 90mm;
+      height: auto;
+      font-size: 11px;
+  }
+}
+
